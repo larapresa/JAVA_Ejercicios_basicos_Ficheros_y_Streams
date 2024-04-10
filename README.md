@@ -1,6 +1,6 @@
 # JAVA - Ejercicios básicos Ficheros y Streams
 
-<aside>
+
 ## EJERCICIO 1: LECTURA Y COPIA DE FICHEROS DE TEXTO DE MANERA SECUENCIAL
 
 Tenemos un fichero de nombre “AdaLovelace.txt”. Se desea escribir toda su información en un archivo de nombre “CopiaAda.txt”
@@ -15,9 +15,9 @@ La **lectura se deber realizar byte a byte** con el método read(); cada byte se
 
 El proceso termina cuando read() devuelve –1, señal de haber alcanzado el fin del fichero “AdaLovelace.txt”. 
 
-</aside>
 
-<aside>
+
+
 ## EJERCICIO 2: GENERAR UN FICHERO DE DATOS BINARIOS
 
 Crea un fichero de datos binarios “datosClientes.dat” que almacene registros de datos personales. 
@@ -37,16 +37,11 @@ Se pedirán desde teclado los datos de los nuevos clientes a dar de alta hasta q
 
 NOTA: La generación del fichero se hará en una misma ejecución, no se pide la gestión de añadir nuevos clientes al fichero en posteriores ejecuciones. Si quieres sobreescribir el fichero deberás borrarlo del proyecto para que se cree de nuevo vacío. 
 
-</aside>
 
-<aside>
 ## EJERCICIO 3: LEER UN FICHERO DE DATOS BINARIOS DE MANERA SECUENCIAL
 
 Realiza un programa que lea de manera secuencial el fichero de datos binarios creado en en el ejercicio anterior y muestre los datos por pantalla. 
 
-</aside>
-
-<aside>
 ## EJERCICIO 4: LEER UN FICHERO DE DATOS BINARIOS DE MANERA ALEATORIA
 
 Realiza un programa que lea de manera ALEATORIA el fichero de datos binarios creado en en el ejercicio 2 y muestre los datos por pantalla. 
@@ -55,28 +50,23 @@ Para ello se pedirá al usuario el número de cliente que quiere leer, se buscar
 
 El programa debe controlar que no se solicita un número de cliente que no está dado de alta, para ello podéis usar el método length() que nos devolverá la longitud del fichero en bytes y con el tamaño de registro podremos saber cuántos clientes tenemos registrados.
 
-<aside>
 💡 Ten en cuenta que es necesario conocer el **tamaño del registro en bytes**.
 
 1. Número entero (índice del registro): 4 bytes (int).
 2. Nombre de la persona (cadena de caracteres de 30 caracteres): 60 bytes (2 bytes por carácter).
 3. Edad de la persona: 4 bytes (int).
 4. Número de teléfono (cadena de caracteres de 9 caracteres): 18 bytes (2 bytes por carácter).
-</aside>
 
-</aside>
 
-<aside>
 ## EJERCICIO 5: SERIALIZACIÓN DE OBJETOS
 
 En Java trabajamos con objetos y por ello disponemos de las clases **ObjectInputStream** y **ObjectOutputStream** que nos permiten leer y escribir objetos de manera muy sencilla sobre un stream. 
 
 Para poder emplear está funcionalidad los objetos deben ser SERIALIZABLES (implementan la interfaz serializable). 
 
-<aside>
+
 💡 **Recuerda**: *Que un objeto sea **serializable** significa que puede ser transformado en bytes y almacenado en una cadena de caracteres para posteriormente ser leídos de forma que se reconstruya el objeto original*
 
-</aside>
 
 Partiendo de las clases Persona y Vehiculo: 
 
@@ -122,20 +112,14 @@ public class Vehiculo {
 }
 ```
 
-<aside>
+
 👉🏼 Realiza las modificaciones necesarias en las clases [Persona.java](http://Persona.java) y [Vehiculo.java](http://Vehiculo.java) para que puedan ser serializables.
 
-</aside>
 
-<aside>
 👉🏼 Además completa la siguiente clase principal para poder escribir el objeto serializado en el fichero y posteriormente leerlo.
 
-</aside>
 
-<aside>
 ✅ La **SERIALIZACIÓN DE OBJETOS** hacen que la escritura y lectura de objetos en ficheros sea muy sencillo.
-
-</aside>
 
  
 
@@ -183,4 +167,4 @@ public class Ejercicio5 {
 }
 ```
 
-</aside>
+
