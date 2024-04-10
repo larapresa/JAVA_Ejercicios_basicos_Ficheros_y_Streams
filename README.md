@@ -1,7 +1,7 @@
 # JAVA - Ejercicios básicos Ficheros y Streams
 
 <aside>
-** EJERCICIO 1: LECTURA Y COPIA DE FICHEROS DE TEXTO DE MANERA SECUENCIAL**.
+**EJERCICIO 1: LECTURA Y COPIA DE FICHEROS DE TEXTO DE MANERA SECUENCIAL**.
 
 Tenemos un fichero de nombre “AdaLovelace.txt”. Se desea escribir toda su información en un archivo de nombre “CopiaAda.txt”
 Para ello debes tener en cuenta lo siguiente:
@@ -18,7 +18,7 @@ El proceso termina cuando read() devuelve –1, señal de haber alcanzado el fin
 </aside>
 
 <aside>
-** EJERCICIO 2: GENERAR UN FICHERO DE DATOS BINARIOS**
+**EJERCICIO 2: GENERAR UN FICHERO DE DATOS BINARIOS**
 
 Crea un fichero de datos binarios “datosClientes.dat” que almacene registros de datos personales. 
 
@@ -40,14 +40,14 @@ NOTA: La generación del fichero se hará en una misma ejecución, no se pide la
 </aside>
 
 <aside>
-** EJERCICIO 3: LEER UN FICHERO DE DATOS BINARIOS DE MANERA SECUENCIAL**
+**EJERCICIO 3: LEER UN FICHERO DE DATOS BINARIOS DE MANERA SECUENCIAL**
 
 Realiza un programa que lea de manera secuencial el fichero de datos binarios creado en en el ejercicio anterior y muestre los datos por pantalla. 
 
 </aside>
 
 <aside>
-** EJERCICIO 4: LEER UN FICHERO DE DATOS BINARIOS DE MANERA ALEATORIA**
+**EJERCICIO 4: LEER UN FICHERO DE DATOS BINARIOS DE MANERA ALEATORIA**
 
 Realiza un programa que lea de manera ALEATORIA el fichero de datos binarios creado en en el ejercicio 2 y muestre los datos por pantalla. 
 
